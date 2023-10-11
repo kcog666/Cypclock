@@ -3,7 +3,7 @@ from time import strftime
 import webbrowser
 
 root = Tk()
-root.geometry("420x420")
+root.geometry("420x700")
 root.resizable(0,0)
 root.title('Cypclock 0.1')
 
@@ -16,7 +16,13 @@ def openweb():
 def expand ():
     pass
 
-
+# button code
+my_button = Button(root,
+                   text="I dunno yet",
+                   command=openweb,
+                   font=("calibri", 24),
+                   fg="blue")
+my_button.pack(pady=100)
 # button code
 my_button = Button(root,
                    text="Korn AMVs",
