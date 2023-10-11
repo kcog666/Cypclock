@@ -24,14 +24,14 @@ my_button = Button(root,
                    fg="blue")
 my_button.pack(pady=100)
 # button code
-my_button = Button(root,
+korn_amv_button = Button(root,
                    text="Korn AMVs",
                    command=openweb,
                    font=("calibri", 24),
                    fg="blue")
-my_button.pack(pady=100)
+korn_amv_button.pack(pady=100)
 # clock code
-Label(root,text = 'test by Cyp', font = 'arial 20 bold').pack(side=BOTTOM)
+Label(root,text = 'KillGod420', font = 'arial 20 bold').pack(side=BOTTOM)
 
 def time():
     string = strftime('%H:%M:%S %p')
@@ -41,7 +41,7 @@ def time():
 mark = Label(root,
     font = ('calibri', 40, 'bold'),
     pady=150,
-    foreground = 'black')
+    foreground = 'blue')
 
 mark.pack(anchor = 'center')
 time()
